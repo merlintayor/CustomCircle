@@ -7,13 +7,16 @@
 //
 
 #import "ViewController.h"
-#import "ZJLoadingView.h"
 #import "TXLoadingView.h"
+#import "TXGradientLoadingView.h"
 
 @interface ViewController ()
 
 
 @property(nonatomic,strong)TXLoadingView *loadingView;
+@property(nonatomic,strong)TXGradientLoadingView *gradientLoadingView;
+
+
 
 @end
 
@@ -22,8 +25,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.loadingView = [[TXLoadingView alloc]initWithFrame:CGRectMake(100, 300, 200, 200)];
-    [self.view addSubview:self.loadingView];
+//    self.loadingView = [[TXLoadingView alloc]initWithFrame:CGRectMake(100, 300, 200, 200)];
+//    self.loadingView.lineWidth = 20;
+//    [self.view addSubview:self.loadingView];
+    
+    
+    
+    
+    self.gradientLoadingView = [[TXGradientLoadingView alloc] initWithFrame:CGRectMake(100, 500, 100, 100)];
+    NSArray *colors = @[
+                        [UIColor redColor],
+                        [UIColor yellowColor],
+                        [UIColor greenColor],
+                        [UIColor purpleColor],
+                        ];
+    self.gradientLoadingView.colors = colors;
+    [self.view addSubview:self.gradientLoadingView];
+    
+
     
 }
 - (void)didReceiveMemoryWarning {
