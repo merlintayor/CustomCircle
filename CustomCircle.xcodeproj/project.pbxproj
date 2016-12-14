@@ -15,6 +15,7 @@
 		B4691EBF1DFE81B8001BDC81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4691EBD1DFE81B8001BDC81 /* LaunchScreen.storyboard */; };
 		B4691ECB1DFE91B4001BDC81 /* TXLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4691ECA1DFE91B4001BDC81 /* TXLoadingView.m */; };
 		B4691EFD1DFFE8A5001BDC81 /* TXGradientLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4691EFC1DFFE8A5001BDC81 /* TXGradientLoadingView.m */; };
+		B4691F001E00F3D8001BDC81 /* TXCirclePieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4691EFF1E00F3D8001BDC81 /* TXCirclePieProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		B4691ECA1DFE91B4001BDC81 /* TXLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLoadingView.m; sourceTree = "<group>"; };
 		B4691EFB1DFFE8A5001BDC81 /* TXGradientLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXGradientLoadingView.h; sourceTree = "<group>"; };
 		B4691EFC1DFFE8A5001BDC81 /* TXGradientLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXGradientLoadingView.m; sourceTree = "<group>"; };
+		B4691EFE1E00F3D8001BDC81 /* TXCirclePieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCirclePieProgressView.h; sourceTree = "<group>"; };
+		B4691EFF1E00F3D8001BDC81 /* TXCirclePieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCirclePieProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				B4691ECA1DFE91B4001BDC81 /* TXLoadingView.m */,
 				B4691EFB1DFFE8A5001BDC81 /* TXGradientLoadingView.h */,
 				B4691EFC1DFFE8A5001BDC81 /* TXGradientLoadingView.m */,
+				B4691EFE1E00F3D8001BDC81 /* TXCirclePieProgressView.h */,
+				B4691EFF1E00F3D8001BDC81 /* TXCirclePieProgressView.m */,
 				B4691EB81DFE81B8001BDC81 /* Main.storyboard */,
 				B4691EBB1DFE81B8001BDC81 /* Assets.xcassets */,
 				B4691EBD1DFE81B8001BDC81 /* LaunchScreen.storyboard */,
@@ -161,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4691F001E00F3D8001BDC81 /* TXCirclePieProgressView.m in Sources */,
 				B4691EB71DFE81B8001BDC81 /* ViewController.m in Sources */,
 				B4691EB41DFE81B8001BDC81 /* AppDelegate.m in Sources */,
 				B4691EFD1DFFE8A5001BDC81 /* TXGradientLoadingView.m in Sources */,
@@ -322,6 +328,7 @@
 				B4691EC51DFE81B8001BDC81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
