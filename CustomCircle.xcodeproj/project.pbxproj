@@ -16,6 +16,8 @@
 		B4691ECB1DFE91B4001BDC81 /* TXLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4691ECA1DFE91B4001BDC81 /* TXLoadingView.m */; };
 		B4691EFD1DFFE8A5001BDC81 /* TXGradientLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4691EFC1DFFE8A5001BDC81 /* TXGradientLoadingView.m */; };
 		B4691F001E00F3D8001BDC81 /* TXCirclePieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4691EFF1E00F3D8001BDC81 /* TXCirclePieProgressView.m */; };
+		B4691F031E011DBD001BDC81 /* TXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4691F021E011DBD001BDC81 /* TXCircleProgressView.m */; };
+		B4691F051E0129FE001BDC81 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4691F041E0129FE001BDC81 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,9 @@
 		B4691EFC1DFFE8A5001BDC81 /* TXGradientLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXGradientLoadingView.m; sourceTree = "<group>"; };
 		B4691EFE1E00F3D8001BDC81 /* TXCirclePieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCirclePieProgressView.h; sourceTree = "<group>"; };
 		B4691EFF1E00F3D8001BDC81 /* TXCirclePieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCirclePieProgressView.m; sourceTree = "<group>"; };
+		B4691F011E011DBD001BDC81 /* TXCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXCircleProgressView.h; sourceTree = "<group>"; };
+		B4691F021E011DBD001BDC81 /* TXCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXCircleProgressView.m; sourceTree = "<group>"; };
+		B4691F041E0129FE001BDC81 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +82,11 @@
 				B4691EFC1DFFE8A5001BDC81 /* TXGradientLoadingView.m */,
 				B4691EFE1E00F3D8001BDC81 /* TXCirclePieProgressView.h */,
 				B4691EFF1E00F3D8001BDC81 /* TXCirclePieProgressView.m */,
+				B4691F011E011DBD001BDC81 /* TXCircleProgressView.h */,
+				B4691F021E011DBD001BDC81 /* TXCircleProgressView.m */,
 				B4691EB81DFE81B8001BDC81 /* Main.storyboard */,
 				B4691EBB1DFE81B8001BDC81 /* Assets.xcassets */,
+				B4691F041E0129FE001BDC81 /* 1.jpg */,
 				B4691EBD1DFE81B8001BDC81 /* LaunchScreen.storyboard */,
 				B4691EC01DFE81B8001BDC81 /* Info.plist */,
 				B4691EAF1DFE81B8001BDC81 /* Supporting Files */,
@@ -154,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4691EBF1DFE81B8001BDC81 /* LaunchScreen.storyboard in Resources */,
+				B4691F051E0129FE001BDC81 /* 1.jpg in Resources */,
 				B4691EBC1DFE81B8001BDC81 /* Assets.xcassets in Resources */,
 				B4691EBA1DFE81B8001BDC81 /* Main.storyboard in Resources */,
 			);
@@ -167,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4691F001E00F3D8001BDC81 /* TXCirclePieProgressView.m in Sources */,
+				B4691F031E011DBD001BDC81 /* TXCircleProgressView.m in Sources */,
 				B4691EB71DFE81B8001BDC81 /* ViewController.m in Sources */,
 				B4691EB41DFE81B8001BDC81 /* AppDelegate.m in Sources */,
 				B4691EFD1DFFE8A5001BDC81 /* TXGradientLoadingView.m in Sources */,
