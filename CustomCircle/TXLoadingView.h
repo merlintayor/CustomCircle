@@ -6,6 +6,11 @@
 //  Copyright © 2016年 txx. All rights reserved.
 //
 
+/*
+ 
+ 加载视图
+ 
+ */
 #import <UIKit/UIKit.h>
 
 @interface TXLoadingView : UIView

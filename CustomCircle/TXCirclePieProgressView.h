@@ -5,6 +5,11 @@
 //  Created by txx on 16/12/14.
 //  Copyright © 2016年 txx. All rights reserved.
 //
+/*
+ 
+ 圆饼进度条
+ 
+ */
 
 #import <UIKit/UIKit.h>
 
